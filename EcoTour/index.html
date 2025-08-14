@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTour - Explore Nature</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div id ="ecotour">
+                <h1><a href="#home"></a>EcoTour</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Discover the Beauty of Nature</h2>
+        <p>Join us on unforgettable eco-friendly tours that connect you with nature while preserving its beauty for future generations.</p>
+        <a href="#contact" class="btn">Book Your Tour</a>
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About EcoTour</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>EcoTour is dedicated to providing sustainable travel experiences that minimize environmental impact while maximizing your connection with nature. Our tours are designed with eco-conscious travelers in mind, offering unique opportunities to explore pristine environments with minimal footprint.</p>
+                <br>
+                <p>Our expert guides are passionate about conservation and will share their knowledge about local ecosystems, wildlife, and sustainable practices throughout your journey.</p>
+                <br>
+                <p>We partner with local communities to ensure our tours benefit both travelers and the destinations we visit, creating a positive impact that lasts long after your trip ends.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71" alt="Nature">
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery" class="section gallery">
+        <h2>Our Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1470114716159-e389f8712fda" alt="Forest">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716" alt="Waterfall">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" alt="Flowers">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff" alt="Mountain">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b" alt="Autumn">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e" alt="Beach">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="tour">Tour Interest</label>
+                <select id="tour" name="tour" required>
+                    <option value="">Select a tour</option>
+                    <option value="rainforest">Rainforest Adventure</option>
+                    <option value="wildlife">Wildlife Safari</option>
+                    <option value="hiking">Mountain Hiking</option>
+                    <option value="coastal">Coastal Exploration</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Group Size</label>
+                <div class="radio-group">
+                    <input type="radio" id="solo" name="group-size" value="solo" required>
+                    <label for="solo">Solo</label>
+                    
+                    <input type="radio" id="small" name="group-size" value="small">
+                    <label for="small">Small Group (2-4)</label>
+                    
+                    <input type="radio" id="medium" name="group-size" value="medium">
+                    <label for="medium">Medium Group (5-8)</label>
+                    
+                    <input type="radio" id="large" name="group-size" value="large">
+                    <label for="large">Large Group (9+)</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Submit Inquiry</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2025 EcoTour. All rights reserved.</p>
+    </footer>
+</body>
+</html>
